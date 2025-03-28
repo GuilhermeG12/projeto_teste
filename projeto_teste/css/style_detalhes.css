@@ -1,0 +1,99 @@
+
+
+body, html{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+body{
+    width: 950px;
+
+}
+
+
+.flex-aling{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+.event1{
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.events{
+    margin-left: 2%;
+}
+
+.navbar-item:hover{
+    border-radius: 5px;
+    background-color: rgb(31, 113, 116);
+    color: aliceblue;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.informacoes{
+    background-color: rgb(218, 218, 218);
+    border-radius: 5px;
+}
+.titulo{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+.data_evento{
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.localizacao{
+    margin-top: -14px;
+}
+.button{
+    right: 0;
+}
+
+.sobre_evento{
+    background-color: rgb(218, 218, 218);
+    border-radius: 5px;
+    width: 950px;
+}
+h5{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo_evento{
+    margin-top: 10px;
+    height: 50px;
+}
+
+.descricao_event{
+    text-align: justify center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.convidados{
+    background-color: rgb(218, 218, 218);
+    border-radius: 5px;
+    width: 950px;
+}
+
+.titulo_convidados{
+    margin-top: 10px;
+    height: 50px;
+}
+.img_convidado{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}

@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex-aling{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+.event1{
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.events{
+    margin-left: 2%;
+}
+
+.navbar-item:hover{
+    border-radius: 5px;
+    background-color: rgb(31, 113, 116);
+    color: aliceblue;
+}
+
+.informacoes, .formulario{
+    background-color: rgb(218, 218, 218);
+    border-radius: 5px;
+}
+
+.titulo{
+    padding: 50px;
+
+}
+
+.data_evento{
+    padding: 50px;
+  
+}
+
+h3{
+    padding: 30px;
+ 
+}
